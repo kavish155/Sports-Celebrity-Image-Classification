@@ -1,24 +1,28 @@
 ![Screenshot (1752)](https://github.com/kavish155/Sports-Celebrity-Image-Classification/assets/91543027/8824c3bb-aacc-494d-b63b-9fb3862bfabf)
 
-A end -end sports celebrity image classification project that predicts the
-celebrity name if image is uploaded
+In this data science and machine learning project, we classify sports personalities. We restrict classification to only 5 people,
+1) Maria Sharapova
+2) Serena Williams
+3) Virat Kohli
+4) Roger Federer
+5) Lionel Messi
 
--> Predicts which celebrity image it is out of 5(Virat Kohli, Serena Williams,
-  Roger Federer,Lionel Messi,Maria Sharapova).
+Here is the folder structure,
+* UI : This contains ui website code 
+* server: Python flask server
+* model: Contains python notebook for model building
 
--> Did web scrapping for getting images of celebrity from the web.
-
--> Used OpenCv and HaarCascade for detecting faces and eyes of celebrity
-which is helpful of classification.
-
--> Used face images for training model and found best ML model with help of
-hyperparameter tuning.
-
--> Built the backend server with API's using python flask
-
--> Built frontend where you can drop images and know the celebrity name
+Technologies used in this project,
+1. Python
+2. Numpy and OpenCV for data cleaning
+3. Matplotlib & Seaborn for data visualization
+4. Sklearn for model building
+5. Jupyter notebook, visual studio code and pycharm as IDE
+6. Python flask for http server
+7. HTML/CSS/Javascript for UI
 
 How to start the website-
 
 1) download the zip file from github
-2) 
+2) open server folder and run server.py to start the server
+3) open client folder and run app.html to run website
