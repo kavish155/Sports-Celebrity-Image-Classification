@@ -1,3 +1,5 @@
+![Screenshot (1752)](https://github.com/kavish155/Sports-Celebrity-Image-Classification/assets/91543027/8824c3bb-aacc-494d-b63b-9fb3862bfabf)
+
 A end -end sports celebrity image classification project that predicts the
 celebrity name if image is uploaded
 
